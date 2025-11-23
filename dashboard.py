@@ -10,7 +10,7 @@ except KeyError:
     st.error("❌ API_URL belum disetting di Secrets Streamlit Cloud!")
     st.stop()
 
-st.set_page_config(page_title="Cloud Monitor Pro", page_icon="☁️", layout="centered")
+st.set_page_config(page_title="Synthetic Monitoring Phone Device", page_icon="☁️", layout="centered")
 
 # Custom CSS biar tampilan Card Metrics lebih gelap dan elegan
 st.markdown("""
@@ -118,3 +118,4 @@ while True:
             st.error(f"Unexpected Error: {e}")
     # Refresh dashboard setiap 5 detik
     time.sleep(5)
+
