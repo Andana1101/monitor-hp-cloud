@@ -1,6 +1,8 @@
 flask
 sqlalchemy
 mysql-connector-python
+pandas
 streamlit
 requests
-pandas
+pandas 
+plotly
